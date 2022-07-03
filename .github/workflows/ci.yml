@@ -28,4 +28,4 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: android0x7/journal-api:$(date +%s)
+        tags: android0x7/journal-api:latest
